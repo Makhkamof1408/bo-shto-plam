@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.container {
+    width: 1160px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 12px 0 15px 0;
+    background: url(./image/bg-header.png);
+    background-position: right -700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-line {
+    width: 2px;
+    height: 60px;
+    background: #F15525;
+    position: absolute;
+    right: 49%;
+    bottom: 0;
+}
+
+header .navbar {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+header .navbar .navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+header .navbar .navbar-left .logo {
+    margin-right: 73px;
+}
+
+header .navbar .navbar-left ul {
+    display: flex;
+}
+
+header .navbar .navbar-left ul li {
+    margin-right: 41px;
+}
+
+header .navbar .navbar-left ul li a {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #22253B;
+
+}
+
+header .navbar .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+header .navbar .navbar-right a {
+    display: block;
+    margin: 0 7px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 104.4%;
+}
+
+.accres {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 104.4%;
+    padding: 8px 20px;
+    color: #FFFFFF;
+    background: #38BFF2;
+    border-radius: 200px;
+}
+
+header .header-item-left h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 46px;
+    color: #22253B;
+
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-bottom: 66px;
+}
+
+.header-item-left {
+    margin-right: 120px;
+}
+
+.header-item-left h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 46px;
+    color: #22253B;
+
+}
+
+.header-item-left h1::after {
+    width: 365px;
+    height: 1px;
+    display: block;
+    content: "";
+    background: #fff;
+    margin: 30px 0 15px;
+}
+
+header .header-item-left h1 span {
+    font-weight: 700;
+    color: #F15525;
+
+}
+
+.header-item-left p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #22253B;
+    width: 365px;
+    margin-bottom: 18px;
+}
+
+.header-item-left button {
+    padding: 27px 45px;
+    background: #F15525;
+    border-radius: 82px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 96.69%;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.header-item-right img {
+    width: 390px;
+    height: 408px;
+    object-fit: cover;
+}
+
+.local {
+    margin: 50px 0;
+}
+
+.local a {
+    color: #22253B;
+}
+
+.local .local-icon {
+    font-size: 26px;
+    margin-right: 15px;
+}
+
+
+.fa-angles-left {
+    position: absolute;
+    font-size: 30px;
+    color: #22253B;
+    transform: rotate(-90deg);
+    text-shadow: 0 0 5px #F15525;
+    right: 48%;
+    bottom: 50px;
+    padding: 5px;
+
+}
+
+section.one {
+    padding-top: 100px;
+    position: relative;
+}
+
+.section-line {
+    width: 2.5px;
+    height: 60px;
+    background: #22253B;
+    position: absolute;
+    right: 49.5%;
+    top: 0;
+}
+
+section.one h2 {
+    font-family: 'Gilroy SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #22253B;
+}
+
+section.one .section-item {
+    background: #EAF2F5;
+    border-radius: 48px;
+    width: 100%;
+    height: auto;
+    padding: 40px 100px 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.one .section-item .section-item-image {
+    margin-right: 60px;
+}
+
+section.one .section-item .section-item-image img {
+    width: 407px;
+    height: 352px;
+}
+
+.texnology-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section.one .section-item-texnology .texnology-item p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    padding: 0 16px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 44px;
+    margin: 10px;
+    background: #22253B;
+}
+
+section.one .section-item-texnology .texnology-item .primary {
+    background: #5096FF;
+}
+
+section.one .section-item-texnology .texnology-item .orange {
+    background: #FFB359;
+    padding: 0 20px;
+}
+
+section.one .section-item-texnology .texnology-item .btn-color {
+    background: #F15525;
+}
+
+section.one .section-item-texnology .texnology-item .btn-color1 {
+    background: #38BFF2;
+    padding: 0 20px;
+}
+
+section.one .section-item-texnology p {
+    font-family: 'Gilroy SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #22253B;
+    margin-top: 26px;
+}
+
+section.course {
+    padding-bottom: 70px;
+}
+
+section.course .course-item {
+    width: 270px;
+    height: 254px;
+    background: #EAF2F5;
+    border-radius: 30px;
+    margin: 10px;
+    text-align: center;
+    padding: 48px 35px 30px;
+
+}
+section.course .course-item:hover{
+    box-shadow: 0 0 10px gray;
+}
+
+section.course .container h2 {
+    font-family: 'Gilroy SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #22253B;
+    margin: 84px 0 34px;
+
+}
+
+section.course .course-item h3 {
+    margin: 16px 0 10px;
+    font-family: 'Gilroy SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #22253B;
+}
+
+section.course .course-item p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #22253B
+}
+
+section.two {
+    background: url(./image/bg-section-two.png);
+    background-position: center -1500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0 90px;
+}
+
+section.two h3 {
+    font-family: 'Gilroy SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #22253B;
+
+}
+
+section.two .two-text-p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #22253B;
+    margin: 27px auto;
+    width: 642px;
+    text-align: center;
+}
+
+.two .video {
+    width: 619.84px;
+    height: 433.34px;
+    border: 2px solid #F3F3F3;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.two .video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.two .infarmation {
+    background: #FFFFFF;
+    box-shadow: 0 0 15px rgba(34, 37, 59, 0.04);
+    border-radius: 40px;
+    padding: 45px 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.two .infarmation .infarmation-item {
+    border-right: 1px solid rgb(176, 176, 176);
+    padding-left: 10px;
+}
+
+.two .infarmation .infarmation-item:nth-last-of-type(1) {
+    border: none;
+}
+
+.two .infarmation .infarmation-item h3 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 77px;
+    line-height: 30px;
+    text-align: left;
+    color: #38BFF2;
+    margin-bottom: 20px;
+}
+
+.two .infarmation .infarmation-item h4 {
+    font-family: 'Gilroy SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #22253B;
+    margin-bottom: 20px;
+}
+
+.two .infarmation .infarmation-item p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #22253B;
+    
+}
+
+.two .start {
+    width: 538px;
+    background: #FFFFFF;
+    border-radius: 110px;
+    padding: 12px 15px;
+}
